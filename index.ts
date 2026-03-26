@@ -12,6 +12,7 @@ interface User {
 
 const users: User[] = [];
 
+
 app.get('/api/users', (req, res) => {
   res.json(users);
 });
