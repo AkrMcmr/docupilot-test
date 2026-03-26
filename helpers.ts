@@ -19,3 +19,5 @@ export function paginate<T>(items: T[], page: number, perPage: number = 10): { d
     pages: Math.ceil(items.length / perPage),
   };
 }
+
+// E2E test: trigger DocuPilot webhook - 20260326T074207Z
